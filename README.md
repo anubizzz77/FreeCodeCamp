@@ -15,7 +15,7 @@ This code was created to create a registration form for some web page.
 
 ## Live Demo
 
-[Live Demo Link](http://127.0.0.1:5501/surveyform/index.html)
+[Live Demo Link](https://anubizzz77.github.io/FreeCodeCamp/)
 
 ## Getting Started
 
