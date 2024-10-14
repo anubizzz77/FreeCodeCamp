@@ -1,0 +1,111 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(128, 0, 128, 0.5);
+  z-index: 1;
+}
+
+#survey-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+  margin: 20px;
+  overflow-y: auto;
+}
+
+
+h1 {
+  margin-top: 20px;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+p#description {
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-bottom: 10px; 
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#survey-form {
+  max-height: 80%;
+  overflow-y: auto;
+}
