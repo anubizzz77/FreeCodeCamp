@@ -56,7 +56,6 @@ p#description {
 }
 
 label {
-  display: block;
   margin-top: 20px;
   font-weight: bold;
   color: #333;
@@ -95,6 +94,7 @@ button {
   box-sizing: border-box;
   font-size: 16px;
 }
+
 
 button:hover {
   background-color: #45a049;
